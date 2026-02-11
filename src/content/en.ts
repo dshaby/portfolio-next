@@ -118,23 +118,6 @@ const content: Content = {
         stack: ['Next.js (App Router)', 'TypeScript', 'Tailwind CSS', 'SEO Metadata', 'Supabase']
       },
       {
-        title: 'E-Commerce App',
-        year: '2022',
-        description:
-          'Built a full-featured storefront with authentication, catalog browsing, and a responsive purchasing flow.',
-        outcomes: [
-          'Implemented account auth and cart workflows with predictable client-side state.',
-          'Built responsive catalog and product pages optimized for conversion.',
-          'Shipped an end-to-end commerce experience with reusable UI components.'
-        ],
-        url: 'https://sourcedfashion.netlify.app/',
-        images: [
-          '/images/portfolio/animal-shelter/p1.jpg',
-          '/images/portfolio/animal-shelter/p2.jpg'
-        ],
-        stack: ['React', 'Redux', 'Sass', 'TypeScript']
-      },
-      {
         title: 'AI Math Problem Solver',
         year: '2024',
         description:
@@ -150,6 +133,23 @@ const content: Content = {
           '/images/portfolio/math_made_easy/solution.png'
         ],
         stack: ['Next.js 15', 'TypeScript', 'tRPC', 'React Query', 'Tailwind CSS', 'KaTeX', 'Wolfram|Alpha API', 'OpenAI API']
+      },
+      {
+        title: 'E-Commerce App',
+        year: '2022',
+        description:
+          'Built a full-featured storefront with authentication, catalog browsing, and a responsive purchasing flow.',
+        outcomes: [
+          'Implemented account auth and cart workflows with predictable client-side state.',
+          'Built responsive catalog and product pages optimized for conversion.',
+          'Shipped an end-to-end commerce experience with reusable UI components.'
+        ],
+        url: 'https://sourcedfashion.netlify.app/',
+        images: [
+          '/images/portfolio/animal-shelter/p1.jpg',
+          '/images/portfolio/animal-shelter/p2.jpg'
+        ],
+        stack: ['React', 'Redux', 'Sass', 'TypeScript']
       },
       {
         title: 'Real Estate Search App',

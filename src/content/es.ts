@@ -118,20 +118,6 @@ const content: Content = {
         stack: ['Next.js (App Router)', 'TypeScript', 'Tailwind CSS', 'SEO Metadata', 'Supabase']
       },
       {
-        title: 'App E-Commerce',
-        year: '2022',
-        description:
-          'Construi una tienda full-featured con autenticacion, catalogo de productos y flujo de compra responsive.',
-        outcomes: [
-          'Implemente autenticacion y carrito con estado de cliente consistente.',
-          'Desarrolle catalogo y paginas de producto responsive orientadas a conversion.',
-          'Entregue una experiencia de e-commerce completa con componentes reutilizables.'
-        ],
-        url: 'https://sourcedfashion.netlify.app/',
-        images: ['/images/portfolio/animal-shelter/p1.jpg', '/images/portfolio/animal-shelter/p2.jpg'],
-        stack: ['React', 'Redux', 'Sass', 'TypeScript']
-      },
-      {
         title: 'Solucionador de Matematicas con IA',
         year: '2024',
         description:
@@ -147,6 +133,20 @@ const content: Content = {
           '/images/portfolio/math_made_easy/solution.png'
         ],
         stack: ['Next.js 15', 'TypeScript', 'tRPC', 'React Query', 'Tailwind CSS', 'KaTeX', 'Wolfram|Alpha API', 'OpenAI API']
+      },
+      {
+        title: 'App E-Commerce',
+        year: '2022',
+        description:
+          'Construi una tienda full-featured con autenticacion, catalogo de productos y flujo de compra responsive.',
+        outcomes: [
+          'Implemente autenticacion y carrito con estado de cliente consistente.',
+          'Desarrolle catalogo y paginas de producto responsive orientadas a conversion.',
+          'Entregue una experiencia de e-commerce completa con componentes reutilizables.'
+        ],
+        url: 'https://sourcedfashion.netlify.app/',
+        images: ['/images/portfolio/animal-shelter/p1.jpg', '/images/portfolio/animal-shelter/p2.jpg'],
+        stack: ['React', 'Redux', 'Sass', 'TypeScript']
       },
       {
         title: 'App de Busqueda Inmobiliaria',
