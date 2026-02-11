@@ -1,0 +1,12 @@
+{
+  "nav": {
+    "about": "Sobre mí",
+    "projects": "Proyectos",
+    "experience": "Experiencia",
+    "skills": "Habilidades",
+    "contact": "Contacto"
+  },
+  "footer": {
+    "availability": "Abierto a oportunidades"
+  }
+}
