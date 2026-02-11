@@ -1,0 +1,25 @@
+{
+  "nav": {
+    "about": "A propos",
+    "projects": "Projets",
+    "experience": "Experience",
+    "skills": "Competences",
+    "contact": "Contact",
+    "talk": "Email"
+  },
+  "ui": {
+    "profile": "Profil",
+    "snapshot": "Resume",
+    "work": "Travaux",
+    "career": "Parcours",
+    "toolkit": "Outils",
+    "contact": "Contact",
+    "visitProject": "Voir le projet",
+    "copyEmail": "Copier l'email",
+    "copied": "Copie",
+    "themeDark": "Sombre",
+    "themeLight": "Clair",
+    "themeSwitchToDark": "Passer en mode sombre",
+    "themeSwitchToLight": "Passer en mode clair"
+  }
+}

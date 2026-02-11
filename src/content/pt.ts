@@ -3,10 +3,10 @@ import type { Content } from './types';
 const content: Content = {
   site: {
     name: 'Daniel Shaby',
-    role: 'Full Stack Developer',
+    role: 'Desenvolvedor Full Stack',
     location: 'Los Angeles, CA',
-    tagline: 'I build clean, fast, human-centered web products that feel effortless to use.',
-    availabilityLabel: 'Open to opportunities',
+    tagline: 'Construo produtos web limpos, rapidos e centrados nas pessoas.',
+    availabilityLabel: 'Aberto a oportunidades',
     email: 'dshaby@berkeley.edu',
     social: [
       {
@@ -24,50 +24,50 @@ const content: Content = {
     profileImage: '/images/myProfile.jpg'
   },
   hero: {
-    headline: 'Thoughtful systems. Fast builds. Beautiful UX.',
+    headline: 'Sistemas bem pensados. Entregas rapidas. UX elegante.',
     subhead:
-      'I design and ship end-to-end products with a calm, reliable engineering process. From idea to launch, I focus on speed, clarity, and polish.',
-    primaryCta: { label: 'View Work', href: '#projects' },
-    secondaryCta: { label: 'Contact', href: '#contact' },
+      'Projeto e entrego produtos ponta a ponta com um processo de engenharia claro e confiavel. Do conceito ao lancamento, foco em velocidade, clareza e acabamento.',
+    primaryCta: { label: 'Ver projetos', href: '#projects' },
+    secondaryCta: { label: 'Contato', href: '#contact' },
     stats: [
-      { label: 'Years building', value: '5+' },
-      { label: 'Projects shipped', value: '20+' },
-      { label: 'Current focus', value: 'Product + AI' }
+      { label: 'Anos construindo', value: '5+' },
+      { label: 'Projetos entregues', value: '20+' },
+      { label: 'Foco atual', value: 'Produto + IA' }
     ]
   },
   about: {
-    title: 'About',
+    title: 'Sobre',
     body: [
-      "I'm Daniel Shaby, a full stack developer based in Los Angeles.",
-      'I currently work remotely at Bynder, shipping product experiences that are simple, fast, and reliable.',
-      'My UC Berkeley training became a foundation for disciplined thinking, clear communication, and practical problem solving.',
-      'I fell in love with computer science through courses in data structures and algorithms, then built a career creating products that are both useful and beautifully crafted.',
-      'Multilingual: English, Spanish, Portuguese, French.'
+      'Sou Daniel Shaby, desenvolvedor full stack baseado em Los Angeles.',
+      'Atualmente trabalho remotamente na Bynder, criando experiencias de produto simples, rapidas e confiaveis.',
+      'Minha formacao na UC Berkeley se tornou base para pensamento disciplinado, comunicacao clara e solucao pratica de problemas.',
+      'Passei a gostar de ciencia da computacao em cursos de estruturas de dados e algoritmos, e construi minha carreira criando produtos uteis e bem executados.',
+      'Multilingue: ingles, espanhol, portugues e frances.',
     ],
     highlights: [
       {
-        title: 'Product-minded engineering',
-        description: 'I focus on the user journey first, then build the system that supports it.'
+        title: 'Engenharia orientada a produto',
+        description: 'Comeco pela jornada do usuario e depois desenho o sistema para sustenta-la.'
       },
       {
-        title: 'Full-stack delivery',
-        description: 'From frontend experience to backend reliability, I ship end-to-end.'
+        title: 'Entrega full stack',
+        description: 'Da experiencia no frontend a confiabilidade no backend, entrego de ponta a ponta.'
       },
       {
-        title: 'Performance as a feature',
-        description: 'I prioritize speed, accessibility, and clean architecture.'
+        title: 'Performance como recurso',
+        description: 'Priorizo velocidade, acessibilidade e arquitetura limpa.'
       }
     ]
   },
   projects: {
-    title: 'Selected Work',
-    description: 'A few projects that highlight my range — product, UX, and systems thinking.',
+    title: 'Projetos em destaque',
+    description: 'Projetos que mostram minha atuacao em produto, UX e sistemas.',
     items: [
       {
-        title: 'Math Problem Solver',
+        title: 'Solucionador de Problemas de Matematica',
         year: '2024',
         description:
-          'Capture any math problem and get step-by-step solutions instantly with a clean, mobile-first UX.',
+          'Tire uma foto de um problema de matematica e receba solucoes passo a passo em uma experiencia mobile-first.',
         url: 'https://mathmadeeasy.vercel.app/',
         images: [
           '/images/portfolio/math_made_easy/home.png',
@@ -76,10 +76,10 @@ const content: Content = {
         stack: ['Next.js', 'TypeScript', 'tRPC', 'Tailwind CSS', 'React']
       },
       {
-        title: 'Home Sales App',
+        title: 'App de Compra de Casas',
         year: '2024',
         description:
-          'Natural-language search for real estate with OpenAI, RapidAPI, and Google Places.',
+          'Busca imobiliaria em linguagem natural com OpenAI, RapidAPI e Google Places.',
         url: 'https://homekey-dshaby.vercel.app/',
         images: [
           '/images/portfolio/homekey/home-page.png',
@@ -88,10 +88,10 @@ const content: Content = {
         stack: ['Next.js', 'Redux', 'Material UI', 'TypeScript']
       },
       {
-        title: 'Home Rentals',
+        title: 'Aluguel de Casas',
         year: '2024',
         description:
-          'A marketplace experience for sublet listings, tours, and lease agreements.',
+          'Experiencia de marketplace para anuncios de aluguel, visitas e contratos.',
         images: [
           '/images/portfolio/home_rentals/home_rentals_landing.png',
           '/images/portfolio/home_rentals/home_rentals_page_two.png'
@@ -99,9 +99,9 @@ const content: Content = {
         stack: ['Next.js', 'TypeScript', 'React', 'Tailwind CSS']
       },
       {
-        title: 'Python Django Blog',
+        title: 'Blog com Django',
         year: '2024',
-        description: 'A full blog platform with comments, saves, and AWS hosting.',
+        description: 'Plataforma de blog com comentarios, favoritos e hospedagem na AWS.',
         images: [
           '/images/portfolio/python_django_blog/home.png',
           '/images/portfolio/python_django_blog/article.png'
@@ -109,19 +109,19 @@ const content: Content = {
         stack: ['Python', 'Django', 'PostgreSQL', 'AWS']
       },
       {
-        title: 'E-Commerce App',
+        title: 'App de E-commerce',
         year: '2022',
         description:
-          'A full-featured storefront with authentication, Redux, and responsive UI.',
+          'Loja completa com autenticacao, Redux e interface responsiva.',
         url: 'https://sourcedfashion.netlify.app/',
         images: ['/images/portfolio/animal-shelter/p1.jpg', '/images/portfolio/animal-shelter/p2.jpg'],
         stack: ['React', 'Redux', 'Sass', 'TypeScript']
       },
       {
-        title: 'Restaurant',
+        title: 'Restaurante',
         year: '2021',
         description:
-          'A brand-forward site with maps, menus, and an inviting dining experience.',
+          'Site orientado a marca com mapa, menus e uma experiencia acolhedora.',
         url: 'https://davidchubistro.netlify.app/',
         images: ['/images/portfolio/photography/p1.jpg', '/images/portfolio/photography/p2.jpg'],
         stack: ['HTML', 'CSS', 'JavaScript']
@@ -129,15 +129,15 @@ const content: Content = {
     ]
   },
   experience: {
-    title: 'Experience',
+    title: 'Experiencia',
     items: [
       {
         company: 'Bynder',
         title: 'Front End Engineer',
-        years: 'Jan 2023 - Present',
+        years: 'Jan 2023 - Presente',
         highlights: [
-          'Built and optimized React 18 experiences for enterprise users.',
-          'Partnered with product and design to ship high-impact features.'
+          'Desenvolvi e otimizei experiencias React 18 para usuarios enterprise.',
+          'Trabalhei com produto e design para entregar funcionalidades de alto impacto.'
         ],
         stack: ['React', 'Redux', 'Next.js', 'TypeScript', 'Docker', 'Kubernetes']
       },
@@ -146,8 +146,8 @@ const content: Content = {
         title: 'Software Developer',
         years: '2022',
         highlights: [
-          'Shipped e-commerce features, authentication, and data workflows.',
-          'Improved conversion rates through UX refinements.'
+          'Entreguei funcionalidades de e-commerce, autenticacao e fluxos de dados.',
+          'Melhorei conversao com refinamentos de UX.'
         ],
         stack: ['React', 'Redux', 'Firebase', 'Node.js', 'Sass']
       },
@@ -156,8 +156,8 @@ const content: Content = {
         title: 'Cofounder, Dev Team Lead',
         years: '2020 - 2022',
         highlights: [
-          'Co-founded a consumer product and led full-stack delivery.',
-          'Owned roadmap, execution, and early customer iterations.'
+          'Cofundei um produto de consumo e liderei a entrega full stack.',
+          'Conduzi roadmap, execucao e validacao com clientes iniciais.'
         ],
         stack: ['React', 'JavaScript', 'CSS']
       },
@@ -166,16 +166,16 @@ const content: Content = {
         title: 'Backend Engineer',
         years: '2020',
         highlights: [
-          'Built APIs for location-based features and listings.',
-          'Improved performance and data reliability.'
+          'Construi APIs para funcionalidades baseadas em localizacao.',
+          'Melhorei performance e confiabilidade dos dados.'
         ],
         stack: ['Node.js', 'MongoDB', 'Express']
       }
     ]
   },
   skills: {
-    title: 'Skills',
-    description: 'A practical toolkit that scales from early MVPs to production systems.',
+    title: 'Habilidades',
+    description: 'Ferramentas praticas que escalam de MVP ate producao.',
     categories: [
       {
         name: 'Frontend',
@@ -190,15 +190,15 @@ const content: Content = {
         skills: ['AWS', 'Vercel', 'Docker', 'Kubernetes', 'GitHub Actions', 'Jenkins']
       },
       {
-        name: 'Foundations',
-        skills: ['JavaScript', 'HTML', 'CSS', 'System Design', 'UX Collaboration']
+        name: 'Fundamentos',
+        skills: ['JavaScript', 'HTML', 'CSS', 'System Design', 'Colaboracao UX']
       }
     ]
   },
   contact: {
-    title: 'Let’s build something people love',
-    body: 'If you’re looking for a calm, reliable partner to bring a product to life, I’d love to talk.',
-    ctaLabel: 'Email me'
+    title: 'Vamos construir algo que as pessoas adorem',
+    body: 'Se voce procura um parceiro confiavel para tirar um produto do papel, vamos conversar.',
+    ctaLabel: 'Me envie um e-mail'
   }
 };
 

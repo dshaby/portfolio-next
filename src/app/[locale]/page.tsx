@@ -25,7 +25,9 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     alternates: {
       languages: {
         en: '/en',
-        es: '/es'
+        es: '/es',
+        pt: '/pt',
+        fr: '/fr'
       }
     }
   };
@@ -47,7 +49,13 @@ export default async function LocalePage({ params }: PageProps) {
       />
       <ExperienceSection experience={content.experience} careerLabel={t('career')} />
       <SkillsSection skills={content.skills} toolkitLabel={t('toolkit')} />
-      <ContactSection contact={content.contact} site={content.site} contactLabel={t('contact')} />
+      <ContactSection
+        contact={content.contact}
+        site={content.site}
+        contactLabel={t('contact')}
+        copyEmailLabel={t('copyEmail')}
+        copiedLabel={t('copied')}
+      />
       <SiteFooter site={content.site} />
     </main>
   );
