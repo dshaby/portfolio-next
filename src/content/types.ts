@@ -30,6 +30,7 @@ export type Content = {
     availabilityLabel: string;
     email: string;
     social: SocialLink[];
+    avatarImage: string;
     profileImage: string;
   };
   hero: {

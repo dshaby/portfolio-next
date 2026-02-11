@@ -20,6 +20,7 @@ const content: Content = {
         url: 'https://www.linkedin.com/in/danielshaby'
       }
     ],
+    avatarImage: '/images/github-avatar.png',
     profileImage: '/images/myProfile.jpg'
   },
   hero: {
@@ -38,7 +39,7 @@ const content: Content = {
     title: 'About',
     body: [
       "I'm Daniel Shaby. I grew up in Los Angeles and studied Economics and Public Health at UC Berkeley.",
-      'I use my UC Berkeley training as a foundation for disciplined thinking, clear communication, and practical problem solving.',
+      'That training became a foundation for disciplined thinking, clear communication, and practical problem solving.',
       'I fell in love with computer science through courses in data structures and algorithms, then built a career creating products that are both useful and beautifully crafted.',
       'Today I work remotely at Bynder and collaborate with founders and teams to ship software that feels simple, fast, and trustworthy.'
     ],

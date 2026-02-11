@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import { Container } from '@/components/Container';
 import { Link } from '@/i18n/navigation';
 import { LocaleSwitcher } from '@/components/LocaleSwitcher';
@@ -18,7 +19,9 @@ export function SiteHeader({ nav, site }: { nav: NavLabels; site: Content['site'
     <header className="sticky top-0 z-20 border-b border-slate-200/80 bg-white/80 backdrop-blur dark:border-white/10 dark:bg-slate-950/80">
       <Container className="flex items-center justify-between py-5">
         <div className="flex items-center gap-3">
-          <div className="h-9 w-9 rounded-full bg-gradient-to-br from-slate-900/90 to-slate-500/50 dark:from-slate-100/90 dark:to-slate-300/40" />
+          <div className="relative h-9 w-9 overflow-hidden rounded-full border border-slate-300 dark:border-white/20">
+            <Image src={site.avatarImage} alt={site.name} fill sizes="36px" className="object-cover" />
+          </div>
           <div>
             <p className="text-sm font-semibold text-slate-900 dark:text-white">{site.name}</p>
             <p className="text-xs text-slate-600 dark:text-slate-400">{site.role}</p>
