@@ -138,18 +138,18 @@ const content: Content = {
         title: 'AI Math Problem Solver',
         year: '2024',
         description:
-          'Built a mobile-first AI math solver that combines Wolfram Alpha API + OpenAI APIs for accurate, step-by-step solutions.',
+          'Built a photo-based math solver on Next.js 15 that turns handwritten problems into verified, step-by-step explanations.',
         outcomes: [
-          'Orchestrated symbolic reasoning from Wolfram Alpha with LLM explanation quality from OpenAI.',
-          'Designed end-to-end flow from camera capture to parsed, human-readable solution output.',
-          'Deployed production-ready app on Vercel with fast rendering and polished UX.'
+          'Implemented an OCR -> Wolfram|Alpha compute check -> AI explanation pipeline with clear accuracy signals.',
+          'Shipped camera upload + sample-problem carousel flow with smooth, mobile-first UX.',
+          'Rendered clean math output with KaTeX/Markdown formatting for readable step-by-step learning.'
         ],
-        url: 'https://mathmadeeasy.vercel.app/',
+        url: 'https://math-photo-solver.vercel.app',
         images: [
-          '/images/portfolio/math_made_easy/home.png',
+          '/images/portfolio/math_made_easy/math_solver_pipeline_v2.png',
           '/images/portfolio/math_made_easy/solution.png'
         ],
-        stack: ['Next.js', 'TypeScript', 'tRPC', 'Tailwind CSS', 'React', 'Wolfram Alpha API', 'OpenAI APIs']
+        stack: ['Next.js 15', 'TypeScript', 'tRPC', 'React Query', 'Tailwind CSS', 'KaTeX', 'Wolfram|Alpha API', 'OpenAI API']
       },
       {
         title: 'Real Estate Search App',

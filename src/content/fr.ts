@@ -135,18 +135,18 @@ const content: Content = {
         title: 'Solveur IA de Mathematiques',
         year: '2024',
         description:
-          'Developpement d un solveur mathematique mobile-first combinant l API Wolfram Alpha + les APIs OpenAI pour des reponses precises pas a pas.',
+          'Developpement d un solveur mathematique par photo sur Next.js 15, capable de transformer des problemes manuscrits en explications verifiees pas a pas.',
         outcomes: [
-          'Orchestration du raisonnement symbolique Wolfram Alpha avec les explications generees par OpenAI.',
-          'Conception d un parcours complet de la capture camera a la sortie structuree et lisible.',
-          'Mise en production sur Vercel avec rendu rapide et finition UX soignee.'
+          'Mise en place d un pipeline OCR -> verification de calcul via Wolfram|Alpha -> explication IA, avec signaux de precision explicites.',
+          'Livraison d un parcours upload camera + carrousel d exemples avec UX mobile-first fluide.',
+          'Rendu mathematique clair avec KaTeX/Markdown pour un apprentissage pas a pas.'
         ],
-        url: 'https://mathmadeeasy.vercel.app/',
+        url: 'https://math-photo-solver.vercel.app',
         images: [
-          '/images/portfolio/math_made_easy/home.png',
+          '/images/portfolio/math_made_easy/math_solver_pipeline_v2.png',
           '/images/portfolio/math_made_easy/solution.png'
         ],
-        stack: ['Next.js', 'TypeScript', 'tRPC', 'Tailwind CSS', 'React', 'Wolfram Alpha API', 'OpenAI APIs']
+        stack: ['Next.js 15', 'TypeScript', 'tRPC', 'React Query', 'Tailwind CSS', 'KaTeX', 'Wolfram|Alpha API', 'OpenAI API']
       },
       {
         title: 'Application de Recherche Immobiliere',
