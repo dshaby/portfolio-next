@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { JetBrains_Mono, Manrope, Playfair_Display } from 'next/font/google';
 import type { ReactNode } from 'react';
+import Script from 'next/script';
 import './globals.css';
 
 const sans = Manrope({
@@ -47,6 +48,9 @@ export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={`${sans.variable} ${serif.variable} ${mono.variable}`}>
+        <Script id="theme-init" strategy="beforeInteractive">
+          {`(function(){try{var t=localStorage.getItem('theme');if(t==='dark'){document.documentElement.classList.add('dark');}}catch(e){}})();`}
+        </Script>
         {children}
       </body>
     </html>

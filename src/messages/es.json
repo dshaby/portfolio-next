@@ -4,9 +4,20 @@
     "projects": "Proyectos",
     "experience": "Experiencia",
     "skills": "Habilidades",
-    "contact": "Contacto"
+    "contact": "Contacto",
+    "talk": "Escríbeme"
   },
-  "footer": {
-    "availability": "Abierto a oportunidades"
+  "ui": {
+    "profile": "Perfil",
+    "snapshot": "Resumen",
+    "work": "Proyectos",
+    "career": "Trayectoria",
+    "toolkit": "Herramientas",
+    "contact": "Contacto",
+    "visitProject": "Ver proyecto",
+    "themeDark": "Oscuro",
+    "themeLight": "Claro",
+    "themeSwitchToDark": "Cambiar a modo oscuro",
+    "themeSwitchToLight": "Cambiar a modo claro"
   }
 }

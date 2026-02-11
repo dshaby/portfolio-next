@@ -4,9 +4,20 @@
     "projects": "Projects",
     "experience": "Experience",
     "skills": "Skills",
-    "contact": "Contact"
+    "contact": "Contact",
+    "talk": "Email me"
   },
-  "footer": {
-    "availability": "Open to opportunities"
+  "ui": {
+    "profile": "Profile",
+    "snapshot": "Snapshot",
+    "work": "Work",
+    "career": "Career",
+    "toolkit": "Toolkit",
+    "contact": "Contact",
+    "visitProject": "Visit project",
+    "themeDark": "Dark",
+    "themeLight": "Light",
+    "themeSwitchToDark": "Switch to dark mode",
+    "themeSwitchToLight": "Switch to light mode"
   }
 }

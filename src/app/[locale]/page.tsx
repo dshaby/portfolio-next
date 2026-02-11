@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { getTranslations } from 'next-intl/server';
 import { getContent } from '@/content';
 import type { AppLocale } from '@/i18n/routing';
 import { routing } from '@/i18n/routing';
@@ -30,18 +31,23 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   };
 }
 
-export default function LocalePage({ params }: PageProps) {
+export default async function LocalePage({ params }: PageProps) {
   const locale = params.locale as AppLocale;
   const content = getContent(routing.locales.includes(locale) ? locale : 'en');
+  const t = await getTranslations('ui');
 
   return (
     <main>
-      <HeroSection hero={content.hero} site={content.site} />
-      <AboutSection about={content.about} site={content.site} />
-      <ProjectsSection projects={content.projects} />
-      <ExperienceSection experience={content.experience} />
-      <SkillsSection skills={content.skills} />
-      <ContactSection contact={content.contact} site={content.site} />
+      <HeroSection hero={content.hero} site={content.site} snapshotLabel={t('snapshot')} />
+      <AboutSection about={content.about} site={content.site} profileLabel={t('profile')} />
+      <ProjectsSection
+        projects={content.projects}
+        workLabel={t('work')}
+        visitProjectLabel={t('visitProject')}
+      />
+      <ExperienceSection experience={content.experience} careerLabel={t('career')} />
+      <SkillsSection skills={content.skills} toolkitLabel={t('toolkit')} />
+      <ContactSection contact={content.contact} site={content.site} contactLabel={t('contact')} />
       <SiteFooter site={content.site} />
     </main>
   );

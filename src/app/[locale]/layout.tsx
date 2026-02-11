@@ -34,7 +34,8 @@ export default async function LocaleLayout({
     projects: t('projects'),
     experience: t('experience'),
     skills: t('skills'),
-    contact: t('contact')
+    contact: t('contact'),
+    talk: t('talk')
   };
 
   return (

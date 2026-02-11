@@ -7,7 +7,7 @@ const content: Content = {
     location: 'Los Ángeles, CA',
     tagline: 'Construyo productos web rápidos, claros y centrados en las personas.',
     availabilityLabel: 'Abierto a oportunidades',
-    email: 'daniel.shaby@gmail.com',
+    email: 'dshaby@berkeley.edu',
     social: [
       {
         name: 'GitHub',
@@ -38,6 +38,7 @@ const content: Content = {
     title: 'Sobre mí',
     body: [
       'Soy Daniel Shaby. Crecí en Los Ángeles y estudié Economía y Salud Pública en UC Berkeley.',
+      'Mi formación en UC Berkeley es la base de mi enfoque: pensamiento disciplinado, comunicación clara y resolución práctica de problemas.',
       'Me apasioné por la informática a través de cursos de estructuras de datos y algoritmos, y luego construí una carrera creando productos útiles y bien diseñados.',
       'Hoy trabajo de forma remota en Bynder y colaboro con equipos para lanzar software simple, rápido y confiable.'
     ],

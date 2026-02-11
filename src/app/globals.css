@@ -11,11 +11,18 @@ html {
 }
 
 body {
-  @apply bg-slate-950 text-slate-100 antialiased;
-  background: radial-gradient(1200px circle at top left, rgba(75, 180, 255, 0.15), transparent 55%),
-    radial-gradient(900px circle at 80% 20%, rgba(255, 122, 89, 0.2), transparent 45%),
-    #0b0c10;
+  @apply antialiased;
+  background: radial-gradient(1200px circle at top left, rgba(59, 130, 246, 0.14), transparent 55%),
+    radial-gradient(900px circle at 80% 20%, rgba(251, 146, 60, 0.15), transparent 45%), #f7f8fb;
+  color: #0f172a;
   min-height: 100vh;
+  transition: background-color 0.25s ease, color 0.25s ease;
+}
+
+.dark body {
+  background: radial-gradient(1200px circle at top left, rgba(75, 180, 255, 0.15), transparent 55%),
+    radial-gradient(900px circle at 80% 20%, rgba(255, 122, 89, 0.2), transparent 45%), #0b0c10;
+  color: #e2e8f0;
 }
 
 body::before {
@@ -43,13 +50,20 @@ section {
 }
 
 @layer components {
-  .glass {
-    @apply bg-white/5 border border-white/10 backdrop-blur-xl;
+.glass {
+    @apply border backdrop-blur-xl;
+    background: rgba(255, 255, 255, 0.68);
+    border-color: rgba(148, 163, 184, 0.35);
   }
 
   .eyebrow {
-    @apply text-xs uppercase tracking-[0.3em] text-slate-400;
+    @apply text-xs uppercase tracking-[0.3em] text-slate-500 dark:text-slate-400;
   }
+}
+
+.dark .glass {
+  background: rgba(255, 255, 255, 0.05);
+  border-color: rgba(255, 255, 255, 0.12);
 }
 
 @keyframes rise {
