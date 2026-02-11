@@ -101,21 +101,21 @@ const content: Content = {
         stack: ['Next.js', 'TypeScript', 'Flask', 'RTK Query', 'AWS S3', 'Clerk']
       },
       {
-        title: 'AI Math Problem Solver',
-        year: '2024',
+        title: 'SOS Standing Ovation Marketing Site',
+        year: '2025',
         description:
-          'Built a mobile-first AI math solver that combines Wolfram Alpha API + OpenAI APIs for accurate, step-by-step solutions.',
+          'Built and launched a high-converting AV services website on Next.js with strong SEO foundations and performance-first UX.',
         outcomes: [
-          'Orchestrated symbolic reasoning from Wolfram Alpha with LLM explanation quality from OpenAI.',
-          'Designed end-to-end flow from camera capture to parsed, human-readable solution output.',
-          'Deployed production-ready app on Vercel with fast rendering and polished UX.'
+          'Implemented App Router metadata and per-page SEO structure for local search discoverability.',
+          'Built a complex multi-section gallery with curated highlights and lightbox browsing flows.',
+          'Shipped contact capture workflow with spam protection and Supabase-backed submissions.'
         ],
-        url: 'https://mathmadeeasy.vercel.app/',
+        url: 'https://laproav.com',
         images: [
-          '/images/portfolio/math_made_easy/home.png',
-          '/images/portfolio/math_made_easy/solution.png'
+          '/images/portfolio/sos/sos_laproav_hero_v1.png',
+          '/images/portfolio/sos/sos_laproav_hero_alt_v1.jpg'
         ],
-        stack: ['Next.js', 'TypeScript', 'tRPC', 'Tailwind CSS', 'React', 'Wolfram Alpha API', 'OpenAI APIs']
+        stack: ['Next.js (App Router)', 'TypeScript', 'Tailwind CSS', 'SEO Metadata', 'Supabase']
       },
       {
         title: 'E-Commerce App',
@@ -133,6 +133,23 @@ const content: Content = {
           '/images/portfolio/animal-shelter/p2.jpg'
         ],
         stack: ['React', 'Redux', 'Sass', 'TypeScript']
+      },
+      {
+        title: 'AI Math Problem Solver',
+        year: '2024',
+        description:
+          'Built a mobile-first AI math solver that combines Wolfram Alpha API + OpenAI APIs for accurate, step-by-step solutions.',
+        outcomes: [
+          'Orchestrated symbolic reasoning from Wolfram Alpha with LLM explanation quality from OpenAI.',
+          'Designed end-to-end flow from camera capture to parsed, human-readable solution output.',
+          'Deployed production-ready app on Vercel with fast rendering and polished UX.'
+        ],
+        url: 'https://mathmadeeasy.vercel.app/',
+        images: [
+          '/images/portfolio/math_made_easy/home.png',
+          '/images/portfolio/math_made_easy/solution.png'
+        ],
+        stack: ['Next.js', 'TypeScript', 'tRPC', 'Tailwind CSS', 'React', 'Wolfram Alpha API', 'OpenAI APIs']
       },
       {
         title: 'Real Estate Search App',

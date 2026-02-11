@@ -101,6 +101,37 @@ const content: Content = {
         stack: ['Next.js', 'TypeScript', 'Flask', 'RTK Query', 'AWS S3', 'Clerk']
       },
       {
+        title: 'Site Marketing SOS Standing Ovation',
+        year: '2025',
+        description:
+          'Concu et lance sur Next.js pour des services AV, avec un focus conversion, performance et SEO local.',
+        outcomes: [
+          'Mise en place des metadata par page avec App Router pour renforcer la visibilite organique locale.',
+          'Developpement d une galerie complexe par sections avec highlights selectionnes et lightbox fluide.',
+          'Livraison d un flux de contact avec anti-spam et stockage des leads via Supabase.'
+        ],
+        url: 'https://laproav.com',
+        images: [
+          '/images/portfolio/sos/sos_laproav_hero_v1.png',
+          '/images/portfolio/sos/sos_laproav_hero_alt_v1.jpg'
+        ],
+        stack: ['Next.js (App Router)', 'TypeScript', 'Tailwind CSS', 'SEO Metadata', 'Supabase']
+      },
+      {
+        title: 'Application E-Commerce',
+        year: '2022',
+        description:
+          'Creation d une boutique complete avec authentification, catalogue produit et parcours d achat responsive.',
+        outcomes: [
+          'Implementation de l authentification et du panier avec un state client fiable.',
+          'Conception de pages catalogue et produit responsives avec objectif conversion.',
+          'Livraison d une experience e-commerce complete avec composants reutilisables.'
+        ],
+        url: 'https://sourcedfashion.netlify.app/',
+        images: ['/images/portfolio/animal-shelter/p1.jpg', '/images/portfolio/animal-shelter/p2.jpg'],
+        stack: ['React', 'Redux', 'Sass', 'TypeScript']
+      },
+      {
         title: 'Solveur IA de Mathematiques',
         year: '2024',
         description:
@@ -116,20 +147,6 @@ const content: Content = {
           '/images/portfolio/math_made_easy/solution.png'
         ],
         stack: ['Next.js', 'TypeScript', 'tRPC', 'Tailwind CSS', 'React', 'Wolfram Alpha API', 'OpenAI APIs']
-      },
-      {
-        title: 'Application E-Commerce',
-        year: '2022',
-        description:
-          'Creation d une boutique complete avec authentification, catalogue produit et parcours d achat responsive.',
-        outcomes: [
-          'Implementation de l authentification et du panier avec un state client fiable.',
-          'Conception de pages catalogue et produit responsives avec objectif conversion.',
-          'Livraison d une experience e-commerce complete avec composants reutilisables.'
-        ],
-        url: 'https://sourcedfashion.netlify.app/',
-        images: ['/images/portfolio/animal-shelter/p1.jpg', '/images/portfolio/animal-shelter/p2.jpg'],
-        stack: ['React', 'Redux', 'Sass', 'TypeScript']
       },
       {
         title: 'Application de Recherche Immobiliere',
