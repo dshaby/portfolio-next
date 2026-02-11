@@ -40,6 +40,7 @@ export type Content = {
     subhead: string;
     primaryCta: { label: string; href: string };
     secondaryCta: { label: string; href: string };
+    tertiaryCta: { label: string; href: string };
     stats: { label: string; value: string }[];
   };
   about: {

@@ -27,12 +27,13 @@ const content: Content = {
   hero: {
     headline: 'Systemes full stack modernes. Execution produit solide.',
     subhead:
-      'Je conçois et livre des produits de bout en bout avec Next.js, TypeScript, Node.js et AWS. Je me concentre sur des resultats mesurables: vitesse, fiabilite et conversion.',
+      'Je conçois et livre des produits de bout en bout avec des resultats mesurables: vitesse, fiabilite et conversion.',
     primaryCta: { label: 'Voir les projets', href: '#projects' },
     secondaryCta: { label: 'Contact', href: '#contact' },
+    tertiaryCta: { label: 'CV', href: '/Daniel_Shaby_Resume.pdf' },
     stats: [
-      { label: 'Annees de pratique', value: '4+' },
-      { label: 'Projets livres', value: '20+' },
+      { label: 'Annees a creer des projets', value: '5+' },
+      { label: 'Experience professionnelle', value: '4+' },
       { label: 'Focus actuel', value: 'Produit + Systemes IA' }
     ]
   },
@@ -40,6 +41,7 @@ const content: Content = {
     title: 'A propos',
     body: [
       'Je suis Daniel Shaby, ingenieur logiciel full stack base a Los Angeles.',
+      'Je suis tombe dans le software grace aux cours de structures de donnees et d algorithmes, puis j ai construit une carriere a livrer des produits utiles et bien realises.',
       'Je mene actuellement la modernisation full stack chez TS Industrial, avec un focus sur les microservices serverless, les contrats types et un CI/CD de production.',
       'Ma formation a UC Berkeley en economie et sante publique guide ma methode: clarte, structure et execution pragmatique.',
       'J aime transformer des problemes produit ambigus en experiences rapides, maintenables et a impact mesurable.',

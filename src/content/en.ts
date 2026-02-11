@@ -27,12 +27,13 @@ const content: Content = {
   hero: {
     headline: 'Modern full-stack systems. Strong product execution.',
     subhead:
-      'I design and ship end-to-end products using Next.js, TypeScript, Node.js, and AWS. I focus on measurable outcomes: speed, reliability, and conversion.',
+      'I build and ship end-to-end products with measurable outcomes: speed, reliability, and conversion.',
     primaryCta: { label: 'View Work', href: '#projects' },
     secondaryCta: { label: 'Contact', href: '#contact' },
+    tertiaryCta: { label: 'Resume', href: '/Daniel_Shaby_Resume.pdf' },
     stats: [
-      { label: 'Years building', value: '4+' },
-      { label: 'Projects shipped', value: '20+' },
+      { label: 'Years building projects', value: '5+' },
+      { label: 'Professional experience', value: '4+' },
       { label: 'Current focus', value: 'Product + AI Systems' }
     ]
   },
@@ -40,6 +41,7 @@ const content: Content = {
     title: 'About',
     body: [
       "I'm Daniel Shaby, a full stack software engineer based in Los Angeles.",
+      'I fell in love with software through data structures and algorithms, then built a career shipping products that are both useful and well-crafted.',
       'I currently lead full-stack modernization work at TS Industrial, focused on serverless microservices, type-safe contracts, and production-grade CI/CD.',
       'My UC Berkeley training in Economics and Public Health shaped how I approach complex systems: structured thinking, clear communication, and practical execution.',
       'I enjoy taking ambiguous product problems and turning them into fast, maintainable user experiences with measurable business impact.',

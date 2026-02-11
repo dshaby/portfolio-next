@@ -33,6 +33,14 @@ export function HeroSection({
               >
                 {hero.secondaryCta.label}
               </a>
+              <a
+                href={hero.tertiaryCta.href}
+                target="_blank"
+                rel="noreferrer"
+                className="rounded-full border border-slate-300 bg-white px-6 py-3 text-sm font-semibold text-slate-800 transition hover:border-slate-500 dark:border-white/25 dark:bg-transparent dark:text-white dark:hover:border-white/60"
+              >
+                {hero.tertiaryCta.label}
+              </a>
             </div>
           </div>
           <div className="animate-rise-delayed glass rounded-3xl p-7 shadow-card">
