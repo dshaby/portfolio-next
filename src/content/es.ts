@@ -25,7 +25,7 @@ const content: Content = {
     profileImage: '/images/myProfile.jpg'
   },
   hero: {
-    headline: 'Construyo sistemas full stack de producto e IA que se lanzan rapido y escalan con confiabilidad.',
+    headline: 'Sistemas full stack de producto e IA, construidos para lanzar rapido y escalar con confiabilidad.',
     subhead:
       'Diseno y lanzo productos end-to-end con resultados medibles: velocidad, confiabilidad y conversion.',
     primaryCta: { label: 'Ver trabajo', href: '#projects' },
