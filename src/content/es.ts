@@ -70,11 +70,11 @@ const content: Content = {
         title: 'Modernizacion de Plataforma TS Industrial',
         year: '2025',
         description:
-          'Liderando migracion de una plataforma e-commerce legacy hacia una arquitectura cloud-native con Next.js 15 y servicios serverless de AWS.',
+          'Liderando la migracion desde un stack legacy de React + serverless monolitico hacia una plataforma moderna con Next.js 15, microservicios en AWS y contratos compartidos.',
         outcomes: [
-          'Estandarizacion de patrones API entre microservicios de productos, usuarios y ordenes.',
-          'Implementacion de CI/CD multi-entorno (dev, test, UAT, prod) con CodePipeline y CodeBuild.',
-          'Mayor mantenibilidad y confianza de releases con contratos compartidos tipados.'
+          'Construccion de frontend moderno con Next.js App Router y target de despliegue OpenNext.',
+          'Estandarizacion de contratos API tipados entre dominios de productos, usuarios y ordenes.',
+          'Implementacion de CI/CD multi-entorno (dev, test, UAT, prod) con CodePipeline y CodeBuild para releases mas seguros.'
         ],
         url: 'https://d1dgd5bt142kl1.cloudfront.net/',
         images: [
@@ -169,11 +169,11 @@ const content: Content = {
         title: 'Restaurante',
         year: '2021',
         description:
-          'Cree un sitio web de restaurante con identidad de marca, navegacion de menu y diseno responsive.',
+          'Entregue un sitio de restaurante orientado a clientes reales, con foco en confianza de marca, navegacion mobile rapida y conversion local.',
         outcomes: [
-          'Entregue una identidad visual alineada a objetivos del negocio local.',
-          'Integre contexto de ubicacion para facilitar descubrimiento de clientes.',
-          'Optimice estructura de contenido para navegacion mobile-first.'
+          'Disene un sistema visual pulido que proyecta un negocio creible y profesional.',
+          'Implemente rutas claras de menu y ubicacion para facilitar decisiones y accion.',
+          'Lance UX responsive lista para trafico real de clientes.'
         ],
         url: 'https://davidchubistro.netlify.app/',
         images: [

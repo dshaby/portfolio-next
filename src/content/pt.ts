@@ -70,11 +70,11 @@ const content: Content = {
         title: 'Modernizacao da Plataforma TS Industrial',
         year: '2025',
         description:
-          'Liderando migracao de uma plataforma e-commerce legada para arquitetura cloud-native com Next.js 15 e AWS serverless.',
+          'Liderando migracao de um stack legado em React + serverless monolitico para uma plataforma moderna com Next.js 15, microservicos AWS e contratos compartilhados.',
         outcomes: [
-          'Padronizacao de APIs entre microservicos de produtos, usuarios e pedidos.',
-          'Implementacao de CI/CD multi-ambiente com CodePipeline e CodeBuild.',
-          'Melhoria de manutencao e confianca de releases com contratos tipados compartilhados.'
+          'Construcao de frontend moderno com Next.js App Router e alvo de deploy OpenNext.',
+          'Padronizacao de contratos API tipados entre dominios de produtos, usuarios e pedidos.',
+          'Implementacao de CI/CD multi-ambiente (dev, test, UAT, prod) com CodePipeline e CodeBuild para releases mais seguros.'
         ],
         url: 'https://d1dgd5bt142kl1.cloudfront.net/',
         images: [
@@ -169,11 +169,11 @@ const content: Content = {
         title: 'Restaurante',
         year: '2021',
         description:
-          'Criei um site de restaurante com identidade de marca, navegacao de menu e design responsivo.',
+          'Entreguei um site de restaurante voltado para clientes reais, com foco em confianca de marca, navegacao mobile rapida e conversao local.',
         outcomes: [
-          'Entreguei uma identidade visual alinhada aos objetivos do negocio local.',
-          'Integrei contexto de localizacao para facilitar descoberta por clientes.',
-          'Otimizei estrutura de conteudo para navegacao mobile-first.'
+          'Desenhei um sistema visual polido que passa credibilidade comercial.',
+          'Implementei caminhos claros de menu e localizacao para acelerar decisao e contato.',
+          'Lancei UX responsiva pronta para trafego real de clientes.'
         ],
         url: 'https://davidchubistro.netlify.app/',
         images: [

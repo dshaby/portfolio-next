@@ -70,11 +70,11 @@ const content: Content = {
         title: 'Modernisation de la Plateforme TS Industrial',
         year: '2025',
         description:
-          'Je dirige la migration d une plateforme e-commerce legacy vers une architecture cloud-native avec Next.js 15 et AWS serverless.',
+          'Je pilote la migration d un stack legacy React + serverless monolithique vers une plateforme moderne Next.js 15 avec microservices AWS et contrats partages.',
         outcomes: [
-          'Standardisation des patterns API entre microservices produits, utilisateurs et commandes.',
-          'Mise en place d un CI/CD multi-environnement avec CodePipeline et CodeBuild.',
-          'Amelioration de la maintenabilite et de la confiance des releases avec contrats types partages.'
+          'Mise en place d une architecture frontend moderne avec Next.js App Router et cible de deploiement OpenNext.',
+          'Standardisation de contrats API type-safe entre les domaines produits, utilisateurs et commandes.',
+          'Implementation d un CI/CD multi-environnement (dev, test, UAT, prod) avec CodePipeline et CodeBuild pour des releases plus fiables.'
         ],
         url: 'https://d1dgd5bt142kl1.cloudfront.net/',
         images: [
@@ -169,11 +169,11 @@ const content: Content = {
         title: 'Restaurant',
         year: '2021',
         description:
-          'Creation d un site de restaurant avec identite de marque, navigation menu et design responsive.',
+          'Livraison d un site de restaurant pense pour de vrais clients, avec focus sur confiance de marque, navigation mobile rapide et conversion locale.',
         outcomes: [
-          'Production d une identite visuelle alignee aux objectifs d un commerce local.',
-          'Integration du contexte geographique pour faciliter la decouverte client.',
-          'Optimisation de la hierarchie de contenu pour une navigation mobile-first.'
+          'Conception d un systeme visuel soigne qui renforce la credibilite commerciale.',
+          'Mise en place de parcours clairs menu + localisation pour accelerer la prise de decision.',
+          'Livraison d une UX responsive prete pour un trafic client reel.'
         ],
         url: 'https://davidchubistro.netlify.app/',
         images: [

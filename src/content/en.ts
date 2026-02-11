@@ -70,11 +70,11 @@ const content: Content = {
         title: 'TS Industrial Platform Modernization',
         year: '2025',
         description:
-          'Leading migration of a legacy industrial e-commerce platform to a cloud-native architecture with Next.js 15 and AWS serverless services.',
+          'Leading migration from a legacy React + monolithic serverless stack to a modern Next.js 15 platform with AWS microservices and shared contracts.',
         outcomes: [
-          'Standardized API patterns across products, users, and orders microservices.',
-          'Implemented multi-environment CI/CD (dev, test, UAT, prod) with AWS CodePipeline and CodeBuild.',
-          'Improved maintainability and release confidence through shared type-safe contracts.'
+          'Built modern frontend architecture with Next.js App Router and OpenNext deployment target.',
+          'Standardized type-safe API contracts across products, users, and orders domains.',
+          'Implemented multi-environment CI/CD (dev, test, UAT, prod) with AWS CodePipeline and CodeBuild for safer releases.'
         ],
         url: 'https://d1dgd5bt142kl1.cloudfront.net/',
         images: [
@@ -172,11 +172,11 @@ const content: Content = {
         title: 'Restaurant',
         year: '2021',
         description:
-          'Created a brand-forward restaurant website with location awareness, menu navigation, and responsive design.',
+          'Delivered a customer-facing restaurant website focused on brand trust, fast mobile browsing, and local conversion.',
         outcomes: [
-          'Delivered a polished visual identity tailored to local business goals.',
-          'Integrated map-driven location context for easier customer discovery.',
-          'Optimized layout and content hierarchy for mobile-first browsing.'
+          'Designed a polished visual system that made the business look credible and established.',
+          'Built clear menu and location pathways to help visitors quickly decide and take action.',
+          'Shipped responsive UX that felt production-ready for real customer traffic.'
         ],
         url: 'https://davidchubistro.netlify.app/',
         images: [
