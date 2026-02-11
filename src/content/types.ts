@@ -8,6 +8,7 @@ export type Project = {
   title: string;
   year: string;
   description: string;
+  outcomes: string[];
   url?: string;
   images: string[];
   stack: string[];
@@ -29,6 +30,7 @@ export type Content = {
     tagline: string;
     availabilityLabel: string;
     email: string;
+    resumeUrl: string;
     social: SocialLink[];
     avatarImage: string;
     profileImage: string;

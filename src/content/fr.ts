@@ -3,11 +3,12 @@ import type { Content } from './types';
 const content: Content = {
   site: {
     name: 'Daniel Shaby',
-    role: 'Developpeur Full Stack',
+    role: 'Ingenieur Logiciel Full Stack',
     location: 'Los Angeles, CA',
-    tagline: 'Je construis des produits web rapides, propres et centres sur les personnes.',
+    tagline: 'Je construis des produits web performants, type-safe et centres sur une UX claire.',
     availabilityLabel: 'Ouvert aux opportunites',
     email: 'dshaby@berkeley.edu',
+    resumeUrl: '/Daniel_Shaby_Resume.pdf',
     social: [
       {
         name: 'GitHub',
@@ -24,107 +25,175 @@ const content: Content = {
     profileImage: '/images/myProfile.jpg'
   },
   hero: {
-    headline: 'Systemes fiables. Livraison rapide. UX soignee.',
+    headline: 'Systemes full stack modernes. Execution produit solide.',
     subhead:
-      'Je conçois et livre des produits de bout en bout avec une execution claire et fiable. De l idee au lancement, je privilegie vitesse, clarte et finition.',
+      'Je conçois et livre des produits de bout en bout avec Next.js, TypeScript, Node.js et AWS. Je me concentre sur des resultats mesurables: vitesse, fiabilite et conversion.',
     primaryCta: { label: 'Voir les projets', href: '#projects' },
     secondaryCta: { label: 'Contact', href: '#contact' },
     stats: [
-      { label: 'Annees de pratique', value: '5+' },
+      { label: 'Annees de pratique', value: '4+' },
       { label: 'Projets livres', value: '20+' },
-      { label: 'Focus actuel', value: 'Produit + IA' }
+      { label: 'Focus actuel', value: 'Produit + Systemes IA' }
     ]
   },
   about: {
     title: 'A propos',
     body: [
-      'Je suis Daniel Shaby, developpeur full stack base a Los Angeles.',
-      'Je travaille actuellement a distance chez Bynder, ou je livre des experiences produit simples, rapides et fiables.',
-      'Ma formation a UC Berkeley est devenue la base de ma rigueur, de ma communication claire et de ma resolution pratique des problemes.',
-      'Je me suis passionne pour l informatique grace a des cours de structures de donnees et d algorithmes, puis j ai construit ma carriere autour de produits utiles et bien concus.',
-      'Multilingue: anglais, espagnol, portugais et francais.',
+      'Je suis Daniel Shaby, ingenieur logiciel full stack base a Los Angeles.',
+      'Je mene actuellement la modernisation full stack chez TS Industrial, avec un focus sur les microservices serverless, les contrats types et un CI/CD de production.',
+      'Ma formation a UC Berkeley en economie et sante publique guide ma methode: clarte, structure et execution pragmatique.',
+      'J aime transformer des problemes produit ambigus en experiences rapides, maintenables et a impact mesurable.',
+      'Multilingue: anglais, espagnol, portugais et francais.'
     ],
     highlights: [
       {
         title: 'Ingenierie orientee produit',
-        description: 'Je commence par le parcours utilisateur puis je construis le systeme qui le soutient.'
+        description: 'Je priorise les resultats utilisateur et business avant le choix de l architecture.'
       },
       {
         title: 'Livraison full stack',
-        description: 'De l experience frontend a la fiabilite backend, je livre de bout en bout.'
+        description: 'De l UX frontend a la fiabilite backend et aux pipelines de deploiement.'
       },
       {
-        title: 'Performance comme fonctionnalite',
-        description: 'Je priorise vitesse, accessibilite et architecture propre.'
+        title: 'Performance et qualite',
+        description: 'Contrats types, tests, observabilite et architecture maintenable.'
       }
     ]
   },
   projects: {
     title: 'Projets selectionnes',
-    description: 'Des projets qui montrent ma polyvalence en produit, UX et systemes.',
+    description: 'Des projets qui montrent execution produit, profondeur technique et impact reel.',
     items: [
       {
-        title: 'Solveur de Problemes de Mathematiques',
+        title: 'Modernisation de la Plateforme TS Industrial',
+        year: '2025',
+        description:
+          'Je dirige la migration d une plateforme e-commerce legacy vers une architecture cloud-native avec Next.js 15 et AWS serverless.',
+        outcomes: [
+          'Standardisation des patterns API entre microservices produits, utilisateurs et commandes.',
+          'Mise en place d un CI/CD multi-environnement avec CodePipeline et CodeBuild.',
+          'Amelioration de la maintenabilite et de la confiance des releases avec contrats types partages.'
+        ],
+        url: 'https://d1dgd5bt142kl1.cloudfront.net/',
+        images: [
+          '/images/portfolio/ts_industrial/tsi_product_listings_v2.png',
+          '/images/portfolio/ts_industrial/tsi_platform_v2.png'
+        ],
+        stack: ['Next.js 15', 'TypeScript', 'AWS Lambda', 'Serverless v4', 'DynamoDB', 'AWS CDK']
+      },
+      {
+        title: 'Lancement MVP Homekey',
+        year: '2025',
+        description:
+          'Lancement de Homekey de zero a production en un mois avec une equipe de 6 personnes et des parcours assistes par IA.',
+        outcomes: [
+          'MVP en production avec 30+ utilisateurs actifs achetant et vendant des biens.',
+          'Onboarding et planification ayant converti 20 utilisateurs en file d attente vers des testeurs actifs.',
+          'Mentorat technique en React, TypeScript et architecture backend evolutive.'
+        ],
+        url: 'https://www.homekey.casa/',
+        images: [
+          '/images/portfolio/homekey/homekey_mvp_launch_v2.png',
+          '/images/portfolio/homekey/search-results.png'
+        ],
+        stack: ['Next.js', 'TypeScript', 'Flask', 'RTK Query', 'AWS S3', 'Clerk']
+      },
+      {
+        title: 'Solveur IA de Mathematiques',
         year: '2024',
         description:
-          'Prenez une photo d un probleme de mathematiques et obtenez une solution pas a pas avec une UX mobile-first.',
+          'Developpement d un solveur mathematique mobile-first combinant l API Wolfram Alpha + les APIs OpenAI pour des reponses precises pas a pas.',
+        outcomes: [
+          'Orchestration du raisonnement symbolique Wolfram Alpha avec les explications generees par OpenAI.',
+          'Conception d un parcours complet de la capture camera a la sortie structuree et lisible.',
+          'Mise en production sur Vercel avec rendu rapide et finition UX soignee.'
+        ],
         url: 'https://mathmadeeasy.vercel.app/',
         images: [
           '/images/portfolio/math_made_easy/home.png',
           '/images/portfolio/math_made_easy/solution.png'
         ],
-        stack: ['Next.js', 'TypeScript', 'tRPC', 'Tailwind CSS', 'React']
+        stack: ['Next.js', 'TypeScript', 'tRPC', 'Tailwind CSS', 'React', 'Wolfram Alpha API', 'OpenAI APIs']
       },
       {
-        title: 'App d Achat Immobilier',
-        year: '2024',
-        description:
-          'Recherche immobiliere en langage naturel avec OpenAI, RapidAPI et Google Places.',
-        url: 'https://homekey-dshaby.vercel.app/',
-        images: [
-          '/images/portfolio/homekey/home-page.png',
-          '/images/portfolio/homekey/search-results.png'
-        ],
-        stack: ['Next.js', 'Redux', 'Material UI', 'TypeScript']
-      },
-      {
-        title: 'Locations de Maisons',
-        year: '2024',
-        description:
-          'Experience marketplace pour locations, visites et contrats.',
-        images: [
-          '/images/portfolio/home_rentals/home_rentals_landing.png',
-          '/images/portfolio/home_rentals/home_rentals_page_two.png'
-        ],
-        stack: ['Next.js', 'TypeScript', 'React', 'Tailwind CSS']
-      },
-      {
-        title: 'Blog Python Django',
-        year: '2024',
-        description: 'Plateforme de blog complete avec commentaires, favoris et hebergement AWS.',
-        images: [
-          '/images/portfolio/python_django_blog/home.png',
-          '/images/portfolio/python_django_blog/article.png'
-        ],
-        stack: ['Python', 'Django', 'PostgreSQL', 'AWS']
-      },
-      {
-        title: 'App E-commerce',
+        title: 'Application E-Commerce',
         year: '2022',
         description:
-          'Boutique complete avec authentification, Redux et interface responsive.',
+          'Creation d une boutique complete avec authentification, catalogue produit et parcours d achat responsive.',
+        outcomes: [
+          'Implementation de l authentification et du panier avec un state client fiable.',
+          'Conception de pages catalogue et produit responsives avec objectif conversion.',
+          'Livraison d une experience e-commerce complete avec composants reutilisables.'
+        ],
         url: 'https://sourcedfashion.netlify.app/',
         images: ['/images/portfolio/animal-shelter/p1.jpg', '/images/portfolio/animal-shelter/p2.jpg'],
         stack: ['React', 'Redux', 'Sass', 'TypeScript']
       },
       {
+        title: 'Application de Recherche Immobiliere',
+        year: '2024',
+        description:
+          'Implementation d une app de recherche immobiliere en langage naturel combinant APIs OpenAI, feeds RapidAPI et Google Places.',
+        outcomes: [
+          'Recherche orientee intention avec filtres non traditionnels et experience type conversation.',
+          'Integration de listings externes et autocomplete geographique pour des resultats plus pertinents.',
+          'Mise en place d un state management evolutif et d un fetching previsible avec frontieres API robustes.'
+        ],
+        url: 'https://homekey-dshaby.vercel.app/',
+        images: [
+          '/images/portfolio/homekey/home-page.png',
+          '/images/portfolio/homekey/search-results.png'
+        ],
+        stack: ['Next.js', 'TypeScript', 'RTK Query', 'Material UI', 'OpenAI APIs', 'RapidAPI', 'Google Places API']
+      },
+      {
         title: 'Restaurant',
         year: '2021',
         description:
-          'Site oriente marque avec carte, menus et experience conviviale.',
+          'Creation d un site de restaurant avec identite de marque, navigation menu et design responsive.',
+        outcomes: [
+          'Production d une identite visuelle alignee aux objectifs d un commerce local.',
+          'Integration du contexte geographique pour faciliter la decouverte client.',
+          'Optimisation de la hierarchie de contenu pour une navigation mobile-first.'
+        ],
         url: 'https://davidchubistro.netlify.app/',
-        images: ['/images/portfolio/photography/p1.jpg', '/images/portfolio/photography/p2.jpg'],
+        images: [
+          '/images/portfolio/photography/p1.jpg',
+          '/images/portfolio/photography/p2.jpg'
+        ],
         stack: ['HTML', 'CSS', 'JavaScript']
+      },
+      {
+        title: "Daniel's Blog (Django)",
+        year: '2024',
+        description:
+          'Plateforme de blog full stack avec authentification, upload media et workflow de publication administrateur.',
+        outcomes: [
+          'Authentification securisee et ownership du contenu.',
+          'Pipeline de media uploads via AWS S3.',
+          'Deployment AWS pour une livraison stable et scalable.'
+        ],
+        images: [
+          '/images/portfolio/python_django_blog/home.png',
+          '/images/portfolio/python_django_blog/article.png'
+        ],
+        stack: ['Python', 'Django', 'PostgreSQL', 'AWS S3', 'Elastic Beanstalk']
+      },
+      {
+        title: "Daniel's Home Rentals",
+        year: '2024',
+        description:
+          'J ai construit une experience marketplace de location pour la recherche de biens, les appels proprietaires et les parcours de contrat numerique.',
+        outcomes: [
+          'Conception d un parcours listing et prise de contact oriente conversion.',
+          'Mise en place d une UI responsive pour desktop et mobile.',
+          'Livraison d un produit concret utilise dans un projet client reel.'
+        ],
+        images: [
+          '/images/portfolio/home_rentals/home_rentals_landing.png',
+          '/images/portfolio/home_rentals/home_rentals_page_two.png'
+        ],
+        stack: ['Next.js', 'TypeScript', 'React', 'Tailwind CSS']
       }
     ]
   },
@@ -132,72 +201,87 @@ const content: Content = {
     title: 'Experience',
     items: [
       {
+        company: 'TS Industrial LLC',
+        title: 'Full Stack Engineer',
+        years: 'Mar 2025 - Present',
+        highlights: [
+          'Pilotage de la migration d une plateforme e-commerce legacy vers des microservices serverless AWS.',
+          'Developpement frontend en Next.js 15 App Router et contrats backend partages.',
+          'Definition de l infrastructure et des deploiements avec AWS CDK, Serverless v4, CodePipeline et CodeBuild.'
+        ],
+        stack: ['Next.js 15', 'TypeScript', 'Node.js', 'AWS Lambda', 'DynamoDB', 'AWS CDK']
+      },
+      {
+        company: 'Homekey',
+        title: 'Founding Full Stack Engineer',
+        years: 'Jan 2025 - Feb 2025',
+        highlights: [
+          'Lancement MVP from scratch en un mois avec 30+ utilisateurs actifs.',
+          'Mentorat technique de l equipe et mise en place de standards qualite.',
+          'Livraison des parcours onboarding, planning et IA pour accelerer la traction initiale.'
+        ],
+        stack: ['Next.js', 'TypeScript', 'Flask', 'RTK Query', 'AWS', 'Clerk']
+      },
+      {
         company: 'Bynder',
         title: 'Front End Engineer',
-        years: 'Jan 2023 - Present',
+        years: 'Jan 2023 - Feb 2024',
         highlights: [
-          'Developpement et optimisation d experiences React 18 pour des utilisateurs enterprise.',
-          'Collaboration avec produit et design pour livrer des fonctionnalites a fort impact.'
+          'Developpement d outils micro-frontend pour des flux enterprise de migration d assets.',
+          'Modernisation d outils legacy image de jQuery/ColdFusion vers React.',
+          'Amelioration de la performance percue avec skeleton loaders et cache.'
         ],
-        stack: ['React', 'Redux', 'Next.js', 'TypeScript', 'Docker', 'Kubernetes']
+        stack: ['React', 'TypeScript', 'Next.js', 'Docker', 'Kubernetes', 'Jest']
       },
       {
         company: 'Crown Clothing',
-        title: 'Software Developer',
-        years: '2022',
+        title: 'Full Stack Software Engineer',
+        years: 'Mar 2022 - Dec 2022',
         highlights: [
-          'Livraison de fonctionnalites e-commerce, authentification et flux de donnees.',
-          'Amelioration de la conversion grace a des ajustements UX.'
+          'Refonte checkout et UI React avec +15 pourcent de ventes en ligne.',
+          'Score Lighthouse passe de 77 a 93 via optimisation assets et lazy loading.',
+          'Integration GraphQL et amelioration de la fiabilite sur endpoints critiques.'
         ],
-        stack: ['React', 'Redux', 'Firebase', 'Node.js', 'Sass']
+        stack: ['React', 'Redux', 'Node.js', 'GraphQL', 'Sass', 'Firebase']
       },
       {
         company: 'BOTE',
-        title: 'Cofounder, Dev Team Lead',
-        years: '2020 - 2022',
+        title: 'Cofounder et Product Team Lead',
+        years: 'Apr 2020 - Feb 2022',
         highlights: [
-          'Cofondateur d un produit grand public et pilotage de la livraison full stack.',
-          'Ownership du roadmap, execution et validation avec les premiers clients.'
+          'Direction d une equipe cross-fonctionnelle de 8+ contributeurs pour livrer le MVP.',
+          'Developpement des flux coeur avec React, Node.js et Stripe.',
+          'Croissance initiale a 10K vues mensuelles et 600 utilisateurs mensuels.'
         ],
-        stack: ['React', 'JavaScript', 'CSS']
-      },
-      {
-        company: 'myPlaces',
-        title: 'Backend Engineer',
-        years: '2020',
-        highlights: [
-          'Construction d APIs pour des fonctionnalites geolocalisees.',
-          'Amelioration des performances et de la fiabilite des donnees.'
-        ],
-        stack: ['Node.js', 'MongoDB', 'Express']
+        stack: ['React', 'Node.js', 'Stripe', 'Bootstrap', 'Leadership Produit']
       }
     ]
   },
   skills: {
     title: 'Competences',
-    description: 'Une boite a outils pratique, de l MVP a la production.',
+    description: 'Stack full stack moderne pour passer d un MVP a une plateforme scalable.',
     categories: [
       {
         name: 'Frontend',
-        skills: ['React', 'Next.js', 'TypeScript', 'Redux', 'Tailwind CSS', 'Material UI']
+        skills: ['React', 'Next.js (App Router)', 'TypeScript', 'Tailwind CSS', 'Material UI', 'Redux Toolkit Query']
       },
       {
         name: 'Backend',
-        skills: ['Node.js', 'Django', 'PostgreSQL', 'MongoDB', 'tRPC']
+        skills: ['Node.js', 'Express', 'NestJS', 'Python', 'Django', 'REST APIs', 'GraphQL']
       },
       {
-        name: 'DevOps',
-        skills: ['AWS', 'Vercel', 'Docker', 'Kubernetes', 'GitHub Actions', 'Jenkins']
+        name: 'Cloud et DevOps',
+        skills: ['AWS Lambda', 'API Gateway', 'DynamoDB', 'S3', 'CloudFront', 'AWS CDK', 'Serverless v4', 'Docker', 'Kubernetes', 'CodePipeline', 'CodeBuild', 'GitHub Actions']
       },
       {
         name: 'Fondamentaux',
-        skills: ['JavaScript', 'HTML', 'CSS', 'System Design', 'Collaboration UX']
+        skills: ['System Design', 'Contrats types', 'Testing', 'Optimisation performance', 'Collaboration UX']
       }
     ]
   },
   contact: {
-    title: 'Construisons quelque chose que les gens aiment',
-    body: 'Si vous cherchez un partenaire fiable pour donner vie a un produit, parlons-en.',
+    title: 'Construisons quelque chose que les gens utilisent vraiment',
+    body: 'Si vous cherchez un ingenieur capable d aller de la strategie produit a la livraison production, parlons-en.',
     ctaLabel: 'M ecrire'
   }
 };

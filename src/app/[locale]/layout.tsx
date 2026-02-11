@@ -35,6 +35,7 @@ export default async function LocaleLayout({
     experience: t('experience'),
     skills: t('skills'),
     contact: t('contact'),
+    resume: t('resume'),
     talk: t('talk')
   };
 

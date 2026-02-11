@@ -11,6 +11,7 @@ type NavLabels = {
   experience: string;
   skills: string;
   contact: string;
+  resume: string;
   talk: string;
 };
 
@@ -45,6 +46,14 @@ export function SiteHeader({ nav, site }: { nav: NavLabels; site: Content['site'
           </Link>
         </nav>
         <div className="flex items-center gap-3">
+          <a
+            href={site.resumeUrl}
+            target="_blank"
+            rel="noreferrer"
+            className="hidden rounded-full border border-slate-300 bg-white px-4 py-2 text-xs uppercase tracking-[0.2em] text-slate-700 transition hover:border-slate-500 hover:text-slate-900 dark:border-white/15 dark:bg-transparent dark:text-white/80 dark:hover:border-white/40 dark:hover:text-white md:inline-flex"
+          >
+            {nav.resume}
+          </a>
           <a
             href={`mailto:${site.email}`}
             className="hidden rounded-full border border-slate-300 bg-white px-4 py-2 text-xs uppercase tracking-[0.2em] text-slate-700 transition hover:border-slate-500 hover:text-slate-900 dark:border-white/15 dark:bg-transparent dark:text-white/80 dark:hover:border-white/40 dark:hover:text-white md:inline-flex"

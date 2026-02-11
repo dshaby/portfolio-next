@@ -43,6 +43,13 @@ export function ProjectsSection({
                   <span className="text-xs uppercase tracking-[0.2em] text-slate-500 dark:text-slate-400">{String(index + 1).padStart(2, '0')}</span>
                 </div>
                 <p className="text-sm leading-relaxed text-slate-700 dark:text-slate-300">{project.description}</p>
+                <ul className="space-y-1">
+                  {project.outcomes.map((item) => (
+                    <li key={item} className="text-sm text-slate-700 dark:text-slate-300">
+                      - {item}
+                    </li>
+                  ))}
+                </ul>
                 <ul className="flex flex-wrap gap-2">
                   {project.stack.map((item) => (
                     <li key={item} className="rounded-full border border-slate-300 px-3 py-1 text-xs text-slate-700 dark:border-white/15 dark:text-slate-300">
