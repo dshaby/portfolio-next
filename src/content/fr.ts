@@ -25,7 +25,7 @@ const content: Content = {
     profileImage: '/images/myProfile.jpg'
   },
   hero: {
-    headline: 'Systemes full stack modernes. Execution produit solide.',
+    headline: 'Je construis des systemes full stack produit et IA qui se livrent vite et passent a l echelle de facon fiable.',
     subhead:
       'Je conçois et livre des produits de bout en bout avec des resultats mesurables: vitesse, fiabilite et conversion.',
     primaryCta: { label: 'Voir les projets', href: '#projects' },

@@ -25,7 +25,7 @@ const content: Content = {
     profileImage: '/images/myProfile.jpg'
   },
   hero: {
-    headline: 'Modern full-stack systems. Strong product execution.',
+    headline: 'I build full-stack product and AI systems that ship fast and scale reliably.',
     subhead:
       'I build and ship end-to-end products with measurable outcomes: speed, reliability, and conversion.',
     primaryCta: { label: 'View Work', href: '#projects' },
