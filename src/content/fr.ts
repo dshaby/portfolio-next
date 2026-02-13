@@ -43,7 +43,7 @@ const content: Content = {
       'Je suis Daniel Shaby, ingenieur logiciel full stack base a Los Angeles.',
       'Je suis tombe dans le software grace aux cours de structures de donnees et d algorithmes, puis j ai construit une carriere a livrer des produits utiles et bien realises.',
       'Je mene actuellement la modernisation full stack chez TS Industrial, avec un focus sur les microservices serverless, les contrats types et un CI/CD de production.',
-      'Ma formation a UC Berkeley en economie et sante publique m aide a prendre de meilleures decisions produit: equilibrer vitesse, qualite et cout, tout en gardant l utilisabilite et l impact utilisateur reel au centre.',
+      'A UC Berkeley, j ai double-majore en economie et sante publique. L economie m a appris a naviguer dans des systemes complexes et a peser le cout, l efficacite et la vitesse, tandis que la sante publique m a forme a communiquer clairement et a me concentrer sur des personnes reelles. J utilise cette base pour aider les equipes a prendre des decisions produit fiables qui equilibrent qualite, cout et impact utilisateur.',
       'J aime transformer des problemes produit ambigus en experiences rapides, maintenables et a impact mesurable.',
       'Multilingue: anglais, espagnol, portugais et francais.'
     ],
