@@ -43,7 +43,7 @@ const content: Content = {
       "I'm Daniel Shaby, a full stack software engineer based in Los Angeles.",
       'I fell in love with software through data structures and algorithms, then built a career shipping products that are both useful and well-crafted.',
       'I currently lead full-stack modernization work at TS Industrial, focused on serverless microservices, type-safe contracts, and production-grade CI/CD.',
-      'My UC Berkeley background in Economics and Public Health helps me make better product decisions: balancing speed, quality, and cost, while keeping usability and real user impact front and center.',
+      'At UC Berkeley, I double-majored in Economics and Public Health. Economics taught me to navigate complex systems and weigh cost, efficiency, and speed, while Public Health trained me to communicate clearly and focus on real people. I use that foundation to help teams make reliable product decisions that balance quality, cost, and user impact.',
       'I enjoy taking ambiguous product problems and turning them into fast, maintainable user experiences with measurable business impact.',
       'Multilingual: English, Spanish, Portuguese, French.'
     ],
