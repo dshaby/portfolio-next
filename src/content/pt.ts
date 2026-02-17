@@ -135,20 +135,6 @@ const content: Content = {
         stack: ['Next.js 15', 'TypeScript', 'tRPC', 'React Query', 'Tailwind CSS', 'KaTeX', 'Wolfram|Alpha API', 'OpenAI API']
       },
       {
-        title: 'App E-Commerce',
-        year: '2022',
-        description:
-          'Construi uma loja completa com autenticacao, catalogo de produtos e fluxo de compra responsivo.',
-        outcomes: [
-          'Implementei autenticacao e carrinho com estado de cliente consistente.',
-          'Desenvolvi catalogo e paginas de produto responsivas com foco em conversao.',
-          'Entreguei experiencia de e-commerce ponta a ponta com componentes reutilizaveis.'
-        ],
-        url: 'https://sourcedfashion.netlify.app/',
-        images: ['/images/portfolio/animal-shelter/p1.jpg', '/images/portfolio/animal-shelter/p2.jpg'],
-        stack: ['React', 'Redux', 'Sass', 'TypeScript']
-      },
-      {
         title: 'App de Busca Imobiliaria',
         year: '2024',
         description:
@@ -181,6 +167,20 @@ const content: Content = {
           '/images/portfolio/photography/p2.jpg'
         ],
         stack: ['HTML', 'CSS', 'JavaScript']
+      },
+      {
+        title: 'App E-Commerce',
+        year: '2022',
+        description:
+          'Construi uma loja completa com autenticacao, catalogo de produtos e fluxo de compra responsivo.',
+        outcomes: [
+          'Implementei autenticacao e carrinho com estado de cliente consistente.',
+          'Desenvolvi catalogo e paginas de produto responsivas com foco em conversao.',
+          'Entreguei experiencia de e-commerce ponta a ponta com componentes reutilizaveis.'
+        ],
+        url: 'https://sourcedfashion.netlify.app/',
+        images: ['/images/portfolio/animal-shelter/p1.jpg', '/images/portfolio/animal-shelter/p2.jpg'],
+        stack: ['React', 'Redux', 'Sass', 'TypeScript']
       },
       {
         title: "Daniel's Blog (Django)",
