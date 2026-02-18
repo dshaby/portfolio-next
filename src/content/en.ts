@@ -41,10 +41,11 @@ const content: Content = {
     title: 'About',
     body: [
       "I'm Daniel Shaby, a full stack software engineer based in Los Angeles.",
-      'I fell in love with software through data structures and algorithms, then built a career shipping products that are useful, well-crafted, and measurable.',
-      'At TS Industrial, I’m spearheading the modernization of a legacy e-commerce platform (9M+ industrial parts) into TypeScript serverless microservices on AWS, with a Next.js 15 frontend and CI/CD across dev, testing, UAT, and prod.',
-      'At UC Berkeley, I double-majored in Economics and Public Health. Economics taught me to navigate complex systems and weigh cost, efficiency, and speed, while Public Health trained me to communicate clearly and focus on real people. I use that foundation to help teams make reliable product decisions that balance quality, cost, and user impact.',
-      'I enjoy taking ambiguous product problems and turning them into fast, maintainable user experiences with measurable business impact.',
+      'I build production-grade systems that balance thoughtful frontend experience with scalable backend architecture.',
+      "At TS Industrial, I'm leading the modernization of a 9M+ SKU e-commerce platform into TypeScript-based serverless microservices on AWS, paired with a Next.js 15 frontend and multi-environment CI/CD pipelines.",
+      'Previously, as a Founding Engineer at HomeKey, I launched a 0->1 MVP in 30 days and evolved AI-powered search from a prompt-based prototype into a scalable layered system using structured filtering and semantic ranking. My focus is shipping quickly without creating long-term architectural debt.',
+      'I double-majored in Economics and Public Health at UC Berkeley, where CS coursework sparked my path into software engineering. That training shaped how I think in systems and balance tradeoffs, constraints, and real-world impact in engineering decisions.',
+      'I enjoy turning ambiguous product problems into clean, maintainable systems with measurable business impact.',
       'Multilingual: English, Spanish, Portuguese, French.'
     ],
     highlights: [

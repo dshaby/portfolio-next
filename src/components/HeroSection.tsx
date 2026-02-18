@@ -43,7 +43,7 @@ export function HeroSection({
               </a>
             </div>
           </div>
-          <div className="animate-rise-delayed glass rounded-3xl p-7 shadow-card">
+          <div className="animate-rise-delayed glass mx-auto w-full rounded-3xl p-7 shadow-card md:max-w-xl lg:mx-0 lg:max-w-none">
             <p className="mb-6 text-xs uppercase tracking-[0.25em] text-slate-600 dark:text-slate-400">{snapshotLabel}</p>
             <ul className="space-y-5">
               {hero.stats.map((stat) => (

@@ -41,10 +41,11 @@ const content: Content = {
     title: 'Sobre mi',
     body: [
       'Soy Daniel Shaby, ingeniero de software full stack basado en Los Angeles.',
-      'Me enamore del software a traves de estructuras de datos y algoritmos, y luego construi una carrera lanzando productos utiles, bien disenados y medibles.',
-      'En TS Industrial, estoy liderando la modernizacion de una plataforma legacy de e-commerce (9M+ piezas industriales) hacia microservicios serverless en TypeScript sobre AWS, con un frontend en Next.js 15 y CI/CD para dev, testing, UAT y produccion.',
-      'En UC Berkeley, curse doble especializacion en Economia y Salud Publica. Economia me enseno a navegar sistemas complejos y a evaluar costo, eficiencia y velocidad, mientras que Salud Publica me entreno para comunicar con claridad y enfocarme en personas reales. Uso esa base para ayudar a equipos a tomar decisiones de producto confiables que equilibran calidad, costo e impacto en usuarios.',
-      'Disfruto convertir problemas ambiguos de producto en experiencias rapidas, mantenibles y con impacto medible.',
+      'Construyo sistemas de nivel produccion que equilibran una experiencia frontend cuidada con una arquitectura backend escalable.',
+      'En TS Industrial, lidero la modernizacion de una plataforma e-commerce de 9M+ SKU hacia microservicios serverless basados en TypeScript sobre AWS, junto con un frontend en Next.js 15 y pipelines CI/CD multi-entorno.',
+      'Antes, como Founding Engineer en HomeKey, lance un MVP 0->1 en 30 dias y evolucione la busqueda con IA desde un prototipo basado en prompts hacia un sistema escalable por capas con filtrado estructurado y ranking semantico. Mi enfoque es entregar rapido sin crear deuda arquitectonica a largo plazo.',
+      'Hice doble especializacion en Economia y Salud Publica en UC Berkeley, donde cursos de CS encendieron mi camino hacia la ingenieria de software. Esa formacion definio como pienso en sistemas y como equilibro tradeoffs, restricciones e impacto real en decisiones de ingenieria.',
+      'Disfruto convertir problemas ambiguos de producto en sistemas limpios, mantenibles y con impacto medible en el negocio.',
       'Multilingue: ingles, espanol, portugues y frances.'
     ],
     highlights: [
