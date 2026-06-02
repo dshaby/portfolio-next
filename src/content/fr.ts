@@ -136,23 +136,6 @@ const content: Content = {
         stack: ['Next.js 15', 'TypeScript', 'tRPC', 'React Query', 'Tailwind CSS', 'KaTeX', 'Wolfram|Alpha API', 'OpenAI API']
       },
       {
-        title: 'Application de Recherche Immobiliere',
-        year: '2024',
-        description:
-          'Implementation d une app de recherche immobiliere en langage naturel combinant APIs OpenAI, feeds RapidAPI et Google Places.',
-        outcomes: [
-          'Recherche orientee intention avec filtres non traditionnels et experience type conversation.',
-          'Integration de listings externes et autocomplete geographique pour des resultats plus pertinents.',
-          'Mise en place d un state management evolutif et d un fetching previsible avec frontieres API robustes.'
-        ],
-        url: 'https://homekey-dshaby.vercel.app/',
-        images: [
-          '/images/portfolio/homekey/home-page.png',
-          '/images/portfolio/homekey/search-results.png'
-        ],
-        stack: ['Next.js', 'TypeScript', 'RTK Query', 'Material UI', 'OpenAI APIs', 'RapidAPI', 'Google Places API']
-      },
-      {
         title: 'Restaurant',
         year: '2021',
         description:
@@ -170,20 +153,6 @@ const content: Content = {
         stack: ['HTML', 'CSS', 'JavaScript']
       },
       {
-        title: 'Application E-Commerce',
-        year: '2022',
-        description:
-          'Creation d une boutique complete avec authentification, catalogue produit et parcours d achat responsive.',
-        outcomes: [
-          'Implementation de l authentification et du panier avec un state client fiable.',
-          'Conception de pages catalogue et produit responsives avec objectif conversion.',
-          'Livraison d une experience e-commerce complete avec composants reutilisables.'
-        ],
-        url: 'https://sourcedfashion.netlify.app/',
-        images: ['/images/portfolio/animal-shelter/p1.jpg', '/images/portfolio/animal-shelter/p2.jpg'],
-        stack: ['React', 'Redux', 'Sass', 'TypeScript']
-      },
-      {
         title: "Daniel's Blog (Django)",
         year: '2024',
         description:
@@ -198,22 +167,6 @@ const content: Content = {
           '/images/portfolio/python_django_blog/article.png'
         ],
         stack: ['Python', 'Django', 'PostgreSQL', 'AWS S3', 'Elastic Beanstalk']
-      },
-      {
-        title: "Daniel's Home Rentals",
-        year: '2024',
-        description:
-          'J ai construit une experience marketplace de location pour la recherche de biens, les appels proprietaires et les parcours de contrat numerique.',
-        outcomes: [
-          'Conception d un parcours listing et prise de contact oriente conversion.',
-          'Mise en place d une UI responsive pour desktop et mobile.',
-          'Livraison d un produit concret utilise dans un projet client reel.'
-        ],
-        images: [
-          '/images/portfolio/home_rentals/home_rentals_landing.png',
-          '/images/portfolio/home_rentals/home_rentals_page_two.png'
-        ],
-        stack: ['Next.js', 'TypeScript', 'React', 'Tailwind CSS']
       }
     ]
   },
