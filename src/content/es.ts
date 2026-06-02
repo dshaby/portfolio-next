@@ -8,7 +8,7 @@ const content: Content = {
     tagline: 'Construyo productos web de alto rendimiento, con tipado seguro y una experiencia de usuario clara.',
     availabilityLabel: 'Abierto a oportunidades',
     email: 'dshaby@berkeley.edu',
-    resumeUrl: '/Daniel_Shaby_Resume.pdf',
+    resumeUrl: 'https://docs.google.com/document/d/1ZFJK5s5txRB7KBFtFChHNZJ-VFOnskqhWfJyPRHyjS0/export?format=pdf',
     social: [
       {
         name: 'GitHub',
@@ -30,7 +30,7 @@ const content: Content = {
       'Diseno y lanzo productos end-to-end con resultados medibles: velocidad, confiabilidad y conversion.',
     primaryCta: { label: 'Ver trabajo', href: '#projects' },
     secondaryCta: { label: 'Contacto', href: '#contact' },
-    tertiaryCta: { label: 'CV', href: '/Daniel_Shaby_Resume.pdf' },
+    tertiaryCta: { label: 'CV', href: 'https://docs.google.com/document/d/1ZFJK5s5txRB7KBFtFChHNZJ-VFOnskqhWfJyPRHyjS0/export?format=pdf' },
     stats: [
       { label: 'Anos creando proyectos', value: '5+' },
       { label: 'Experiencia profesional', value: '4+' },

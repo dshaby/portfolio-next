@@ -8,7 +8,7 @@ const content: Content = {
     tagline: 'I build type-safe, high-performance web products with strong UX and reliable cloud architecture.',
     availabilityLabel: 'Open to opportunities',
     email: 'dshaby@berkeley.edu',
-    resumeUrl: '/Daniel_Shaby_Resume.pdf',
+    resumeUrl: 'https://docs.google.com/document/d/1ZFJK5s5txRB7KBFtFChHNZJ-VFOnskqhWfJyPRHyjS0/export?format=pdf',
     social: [
       {
         name: 'GitHub',
@@ -30,7 +30,7 @@ const content: Content = {
       'I build and ship end-to-end products with measurable outcomes: speed, reliability, and conversion.',
     primaryCta: { label: 'View Work', href: '#projects' },
     secondaryCta: { label: 'Contact', href: '#contact' },
-    tertiaryCta: { label: 'Resume', href: '/Daniel_Shaby_Resume.pdf' },
+    tertiaryCta: { label: 'Resume', href: 'https://docs.google.com/document/d/1ZFJK5s5txRB7KBFtFChHNZJ-VFOnskqhWfJyPRHyjS0/export?format=pdf' },
     stats: [
       { label: 'Years building projects', value: '5+' },
       { label: 'Professional experience', value: '4+' },
